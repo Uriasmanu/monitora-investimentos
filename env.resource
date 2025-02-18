@@ -1,7 +1,7 @@
 *** Settings ***
+
 Library    SeleniumLibrary
-Library    DataDriver    file=dados.xlsx    sheet_name=Plan1
-Test Template    Buscar e Enviar WhatsApp
+Library    DataDriver    file=Planilha_Investimentos/Ativos.xlsx    sheet_name=Ativos
 
 *** Variables ***
 ${URL}    https://exemplo.com
